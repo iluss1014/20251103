@@ -311,7 +311,7 @@ function drawResultScreen() {
     let navY = height * 2 / 3;
 
     drawNavButton(width / 2 - layout.navW / 2 - 20, navY, "重新測驗");
-    drawNavButton(width / 2 + layout.navW / 2 + 20, navY, "查看詳解");
+    drawNavButton(width / 2 + layout.navW / 2 + 20, navY, "錯題詳解");
 }
 
 // 修正 mousePressed：保持 RESULT 按鈕檢查座標與 drawResultScreen 一致，並修正重新測驗行為
